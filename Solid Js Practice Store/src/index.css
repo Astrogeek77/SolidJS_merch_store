@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 40px;
+  background: #ddd;
+}
+
+.btn {
+  @apply 
+    bg-amber-600 
+    py-2 px-3 my-2 
+    inline-block 
+    text-white 
+    rounded-md 
+    border-2
+    border-amber-600;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+  @apply
+    bg-white 
+    p-4 
+    text-center 
+    rounded-md 
+    shadow-md
+    flex
+    flex-col 
+    justify-center 
+    justify-items-center
+    content-center
+}
